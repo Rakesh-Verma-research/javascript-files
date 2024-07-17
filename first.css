@@ -1,0 +1,6 @@
+p {
+    color: green;
+    border: 2px,solid black;
+    box-sizing: border-box;
+    padding: 12px 15px;
+}
