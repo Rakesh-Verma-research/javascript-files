@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Making a unique calculator</title>
+    <link rel="stylesheet" href="second.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>A Comprehensive calculator</h1>
+      <div id="prompt-container">
+        <button type="button" id="prom-btn" onclick="enterNums()">
+          Click to Enter first bigger number, then smaller number
+        </button>
+      </div>
+
+      <div id="userInput">
+        <span id="big">Your Big Number = </span> || 
+        <span id="small">Your Small Number = </span>
+      </div>
+      <div id="operations">
+        <button type="button" class="op" id="add">Add</button>
+        <button type="button" class="op" id="subtract">Subtract</button>
+        <button type="button" class="op" id="multiply">Multiply</button>
+        <button type="button" class="op" id="divide">Divide</button>
+        <button type="button" class="op" id="remainder">Find Remainder</button>
+      </div>
+      <div id="values">
+        <span id="sum">Sum = </span>
+        <span id="difference">Difference = </span>
+        <span id="product">Product = </span>
+        <span id="quotient">Quotient = </span>
+        <span id="remainder">Remainder = </span>
+      </div>
+    </div>
+
+    <script src="second.js"></script>
+  </body>
+</html>
