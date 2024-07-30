@@ -1,0 +1,13 @@
+body {
+    padding: 200px;
+    background-color: aliceblue;
+}
+#box{
+    padding: 200px;
+    background-color: aqua;
+}
+#button {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
